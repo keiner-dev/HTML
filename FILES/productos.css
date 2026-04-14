@@ -134,11 +134,46 @@ body {
 }
 
 .auriculares {
-    width: 100%;
+    width: 85%;
     height: auto;
     margin-bottom: 10px;
 }
 
 .card span {
     color: green;
+}
+
+.mouse {
+    width: 140%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.teclado {
+    width: 82%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.power_bank {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.bocina {
+    width: 83%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.tv {
+    width: 106%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.ps5 {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
 }
