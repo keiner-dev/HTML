@@ -37,8 +37,9 @@ nav a {
 }
 
 
-
 nav a:hover {
+    transition: ease 0.7s;
+    transform: translateY(-6px);
     color: #0cd316;
 }
 

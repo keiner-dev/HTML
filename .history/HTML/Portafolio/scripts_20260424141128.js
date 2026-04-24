@@ -1,0 +1,4 @@
+function mi(){
+        alert("SENT")
+
+    }

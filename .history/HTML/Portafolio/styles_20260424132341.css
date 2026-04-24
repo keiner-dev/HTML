@@ -36,8 +36,6 @@ nav a {
     font-size: 0.95rem;
 }
 
-
-
 nav a:hover {
     color: #0cd316;
 }
@@ -172,7 +170,7 @@ article.mascota {
 
 article.mascota img {
     width: 100%;
-    height: auto;
+    height: 160px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -222,13 +220,6 @@ article.mascota p {
     .proyectos-grid,
     .galeria-grid {
         grid-template-columns: 1fr 1fr; 
-    } 
-}
-
-@media screen and (max-width: 463px)  {
-    .proyectos-grid,
-    .galeria-grid {
-        grid-template-columns: 1fr; 
-    } 
-
+    }
+    
 }

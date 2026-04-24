@@ -36,9 +36,9 @@ nav a {
     font-size: 0.95rem;
 }
 
-
-
 nav a:hover {
+    transition: ease 0.2s;
+    transform: translateY();
     color: #0cd316;
 }
 
