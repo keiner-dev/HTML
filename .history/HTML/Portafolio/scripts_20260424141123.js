@@ -1,4 +1,0 @@
-function mostrarAlert(){
-        alert("SENT")
-
-    }

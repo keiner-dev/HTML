@@ -1,4 +1,0 @@
-function mi(){
-        alert("SENT")
-
-    }
