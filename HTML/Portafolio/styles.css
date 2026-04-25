@@ -36,21 +36,15 @@ nav a {
     font-size: 0.95rem;
 }
 
-
-
 nav a:hover {
     color: #0cd316;
 }
-
-
 
 main {
     max-width: 960px;
     margin: 40px auto;
     padding: 0 20px;
 }
-
-
 
 section {
     background-color: white;
@@ -150,12 +144,12 @@ form button:hover {
 }
 
 
-
 .galeria-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin-top: 20px;
+    
 }
 
 
@@ -168,6 +162,13 @@ article.mascota {
     border-radius: 10px;
     padding: 16px;
     border: 1px solid #c8e6c9;
+}
+
+article.mascota:hover {
+    transform: translateY(-6px);
+    transition: transform 0.5s ease;
+    box-shadow: 0 8px 16px rgba(3, 236, 15, 0.2);
+    cursor: help;
 }
 
 article.mascota img {
